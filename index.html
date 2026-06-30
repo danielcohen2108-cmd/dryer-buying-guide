@@ -42,6 +42,29 @@
     padding:13px 16px; margin:0 0 22px; font-size:14px;}
   .tip b{font-weight:600;}
 
+  .bottomline{background:var(--card); border:2px solid var(--accent); border-radius:14px;
+    padding:16px 18px; margin:0 0 22px;}
+  .bl-tag{display:inline-block; font-size:12px; font-weight:600; color:var(--accent);
+    background:var(--accent-bg); border-radius:999px; padding:3px 12px; margin-bottom:8px;}
+  .bl-title{font-size:18px; font-weight:600; margin:0 0 10px; color:var(--ink);}
+  .bl-list{margin:0 0 10px; padding-inline-start:20px; font-size:14px; color:var(--muted); line-height:1.6;}
+  .bl-list li{margin:4px 0;} .bl-list b{color:var(--ink); font-weight:600;}
+  .bl-when{font-size:13.5px; color:var(--muted); margin:0; padding-top:10px; border-top:1px solid var(--line);}
+  .bl-when b{color:var(--ink); font-weight:600;}
+
+  h2.sec{font-size:18px; font-weight:600; margin:0 0 12px;}
+  .tbl-wrap{overflow-x:auto; margin:0 0 6px; border:1px solid var(--line); border-radius:12px;}
+  table.spec{border-collapse:collapse; width:100%; min-width:560px; font-size:13px;}
+  table.spec th, table.spec td{padding:9px 11px; text-align:center; border-bottom:1px solid var(--line); white-space:nowrap;}
+  table.spec thead th{background:var(--gray-bg); font-weight:600; color:var(--ink); position:sticky; top:0;}
+  table.spec td:first-child, table.spec th:first-child{text-align:right; color:var(--muted); font-weight:600; background:var(--card); position:sticky; inset-inline-start:0;}
+  table.spec tbody tr:last-child td{border-bottom:none;}
+  table.spec td.hi{background:var(--green-bg); color:var(--green); font-weight:600;}
+  .tbl-note{font-size:11.5px; color:var(--hint); margin:0 0 24px;}
+
+  .rating{font-size:12.5px; color:var(--muted); margin:0 0 10px;}
+  .rating b{color:var(--ink); font-weight:600;}
+
   .controls{display:flex; flex-wrap:wrap; align-items:center; gap:10px;
     position:sticky; top:0; background:var(--bg); padding:12px 0; z-index:5; border-bottom:1px solid var(--line); margin-bottom:18px;}
   .controls .lbl{font-size:13px; color:var(--muted);}
@@ -121,6 +144,40 @@
       <span class="p">תקציב: <b>עד ₪3,000</b> (חריגה ל‑₪3,300)</span>
     </div>
     <div class="tip">💡 <b>התובנה שמכריעה לאופק 5–6 שנים:</b> גם בוש/סימנס וגם Electra מציעות <b>הרחבת אחריות ל‑5 שנים מלאות תמורת ~₪199</b> — כיסוי על כל תקופת השימוש המתוכננת. זה כמעט מבטל את שאלת "מי יחזיק יותר", ומטה את הכף לדגם הזול עם אחריות מורחבת.</div>
+
+    <div class="bottomline">
+      <div class="bl-tag">מה הייתי בוחר</div>
+      <h2 class="bl-title">Bosch WTH9280IL ב‑₪2,420 + הרחבת אחריות ל‑5 שנים (₪199)</h2>
+      <ul class="bl-list">
+        <li><b>אמינות מותג עליון (BSH)</b> — והאחריות ל‑5 שנים מכסה את כל האופק שלך. גם אם משהו יקרה, אתה מכוסה.</li>
+        <li><b>הכי מדורג בפער עצום</b> — 4.96★ מ‑1,874 משתמשים. שאר הדגמים כמעט בלי ביקורות, וזה עצמו סיגנל.</li>
+        <li><b>הכי זול מבין המותגים האמינים</b> — הכול‑כלול (~₪2,620) עדיין מתחת לתקציב.</li>
+        <li><b>הפשרה שולית</b> — 8 ק״ג ובלי Self-Clean: ניקוי מסנן זה דקה, ו‑8 ק״ג מספיק לרוב המחזורים.</li>
+      </ul>
+      <p class="bl-when"><b>מתי הייתי סוטה:</b> אם 10 ק״ג קריטי (הרבה מצעים/עומסים גדולים) → Electra EL1095. אם חיסכון חשמל בראש העדיפויות → Samsung DV90 (A+++).</p>
+    </div>
+
+    <h2 class="sec">השוואת מפרט — 4 הגמר</h2>
+    <div class="tbl-wrap">
+      <table class="spec">
+        <thead><tr>
+          <th>פרמטר</th><th>Bosch WTH9280IL</th><th>Electra EL1095</th><th>Samsung DV90DG52</th><th>Siemens WQ32G28IL</th>
+        </tr></thead>
+        <tbody>
+          <tr><td>מחיר</td><td class="hi">₪2,420</td><td>₪2,490</td><td>₪2,998</td><td>₪2,990–3,264</td></tr>
+          <tr><td>קיבולת</td><td>8 ק״ג</td><td class="hi">10 ק״ג</td><td>9 ק״ג</td><td>8 ק״ג</td></tr>
+          <tr><td>צריכת חשמל (שנתי)*</td><td>~235 קוט״ש</td><td>לא פורסם</td><td class="hi">194 קוט״ש</td><td>~235 קוט״ש</td></tr>
+          <tr><td>דירוג אנרגיה</td><td>A++</td><td>A++</td><td class="hi">A+++</td><td>A++</td></tr>
+          <tr><td>רעש</td><td>~65 dB</td><td>65 dB</td><td>65 dB</td><td class="hi">62 dB</td></tr>
+          <tr><td>Self-Clean Condenser</td><td>✗</td><td>✗</td><td class="hi">✓</td><td class="hi">✓</td></tr>
+          <tr><td>מידות (ג×ר×ע ס״מ)</td><td>84×60×65</td><td>85×60×63</td><td>85×60×65</td><td>84×60×65</td></tr>
+          <tr><td>משקל</td><td>~47 ק״ג</td><td class="hi">45 ק״ג</td><td>48 ק״ג</td><td>50 ק״ג</td></tr>
+          <tr><td>ציון גולשים</td><td class="hi">4.96★ (1,874)</td><td>מעט ביקורות</td><td>חדש</td><td>מעט ביקורות</td></tr>
+          <tr><td>שירות בארץ</td><td class="hi">BSH מצוין</td><td>Electra ארצי</td><td>סמסונג טוב</td><td class="hi">BSH מצוין</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="tbl-note">* צריכה שנתית מקורבת. ✓/הדגשה = הטוב ביותר בשורה.</p>
   </header>
 
   <div class="controls">
@@ -274,6 +331,13 @@ const D = [
   url:null}
 ];
 
+const RAT = {
+  1:'4.96★ · 1,874 ביקורות (הכי גבוה)', 2:'מעט ביקורות בארץ', 3:'חדש — מעט ביקורות',
+  4:'מעט ביקורות בארץ', 5:'כמעט ללא ביקורות', 6:'4.5★ (סדרה 6)', 7:'מעט ביקורות',
+  8:'ביקורות מעורבות', 9:'מעט ביקורות', 10:'מעט ביקורות', 11:'4.92★ · 1,978 ביקורות',
+  12:'מעט ביקורות', 13:'מעט ביקורות', 14:'ביקורות שליליות', 15:'—', 16:'—', 17:'—'
+};
+
 const cardsEl = document.getElementById('cards');
 let sortMode='rank', hideBad=false;
 const realTiers=['best','great','strong','cond'];
@@ -290,6 +354,7 @@ function card(d){
   const pnote = d.pnote ? `<div class="note">${d.pnote}</div>` : '';
   const verdict = d.verdict ? `<div class="verdict">${d.verdict}</div>` : '';
   const warranty = (d.warranty && d.warranty!=='—') ? `<div class="warranty">🛡 <b>אחריות:</b> ${d.warranty}</div>` : '';
+  const rating = (RAT[d.r] && RAT[d.r]!=='—') ? `<div class="rating">⭐ <b>ציון גולשים:</b> ${RAT[d.r]}</div>` : '';
   const prosCol = d.pros.length
     ? `<div class="col good"><h4 class="good">חוזקות</h4><ul>${d.pros.map(p=>`<li>${p}</li>`).join('')}</ul></div>`
     : `<div class="col"><h4 class="good">חוזקות</h4><ul><li style="color:var(--hint);padding:0;">—</li></ul></div>`;
@@ -304,6 +369,7 @@ function card(d){
       <div class="price"><div class="num">${d.plabel}</div>${pnote}</div>
     </div>
     <div class="chips">${d.chips.map(c=>`<span class="chip">${c}</span>`).join('')}</div>
+    ${rating}
     ${warranty}
     ${verdict}
     <div class="pc">${prosCol}${consCol}</div>
